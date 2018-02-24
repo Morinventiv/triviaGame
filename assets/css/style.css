@@ -1,0 +1,21 @@
+/* .answersClass {
+	border: solid 2px red;
+} */
+.answersClass:hover {
+	background-color: steelblue;
+	cursor: pointer;
+	color: ghostwhite;
+}
+
+.answerSelected {
+	background-color: steelblue;
+	color: ghostwhite;
+}
+.answerNotSelected {
+	background-color: none;
+	color: black;
+}
+
+/* #question-span {
+
+} */

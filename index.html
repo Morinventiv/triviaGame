@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Movie Trivia</title>
+	<link rel="stylesheet" href=".\assets\css\style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	 crossorigin="anonymous">
+</head>
+
+<body>
+	<main class="container-fluid">
+		<div class="jumbotron">
+			<h1 class="display-3">Movie Trivia</h1>
+			<p class="lead">Each question will pertain to different movies. Please click the correct response, then click Submit when you are ready for the next Question. The question will advance to the next question if the timer runs out.</p>
+			<hr class="my-4">
+			<p>To start answering trivia questions, please click the "start" button below</p>
+			<p class="lead">
+				<a class="btn btn-primary btn-lg" id="start-button" href="#" role="button">Start Game</a>
+			</p>
+		</div>
+		<main class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h1 class="questions">
+						<span id="question-span"></span>
+					</h1>
+					<h3>
+						<span id="answers-span"></span>
+					</h3>
+				</div>
+				<div class="col-md-3"></div>
+				<div class="col-md-3">
+						<h3>
+								<span class='center'>Time Remaining</span>
+							</h3>
+					<h2>
+						<span id="show-timer">/span>
+					</h2>
+				</div>
+			</div>
+		</main>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src=".\assets\javascript\app.js"></script>
+	</main>
+</body>
+
+</html>
